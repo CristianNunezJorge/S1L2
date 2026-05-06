@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 html {
-    font-family:Inconsolata, sans-serif;
+    font-family: "Inconsolata", sans-serif;
 }
+
 .main-header {
     text-align: center;
     color: rgb(211, 89, 3, 0.712);
-    background-image:url(../img/sixking-flower-5163874.jpg) ;
+    background-image: url(../img/sixking-flower-5163874.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -27,23 +28,26 @@ img:hover {
     width: 60%;
 }
 
-a{
+a {
     color: rgba(211, 89, 3, 0.712);
 }
 
-h2{
+h2 {
     color: #5b5f08;
 }
 
 h3 {
-     color: #8b9202;
+    color: #8b9202;
 }
+
 table {
     border-collapse: collapse;
     border: 2px solid black;
 }
 
-th, td, caption {
+th,
+td,
+caption {
     border: 2px solid black;
 }
 
@@ -51,6 +55,10 @@ caption {
     border-bottom: 0px;
 }
 
+.bis input{
+border-collapse: collapse;
+border: 2px solid black;
+}
 
 
 
