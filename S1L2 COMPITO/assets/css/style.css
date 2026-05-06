@@ -1,7 +1,25 @@
 .main-header {
-    text-align: center; 
+    text-align: center;
+    color: rgb(211, 89, 3, 0.712);
+    background-image:url(../img/sixking-flower-5163874.jpg) ;
+    background-size: cover;
+    background-position: center;
 }
 
-ul {
+.main-header nav a:hover {
+    color: rgba(221, 191, 170, 0.87);
+}
+
+ul li {
     list-style: none;
+}
+
+a{
+    color: rgba(211, 89, 3, 0.712);
+}
+
+.container h2 {
+    text-decoration-color: #857F26;
+
+
 }
