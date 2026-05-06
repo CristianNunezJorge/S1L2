@@ -19,6 +19,14 @@ ul li {
     list-style: none;
 }
 
+img {
+    width: 30%;
+}
+
+img:hover {
+    width: 60%;
+}
+
 a{
     color: rgba(211, 89, 3, 0.712);
 }
@@ -27,6 +35,9 @@ h2{
     color: #5b5f08;
 }
 
+h3 {
+     color: #8b9202;
+}
 table {
     border-collapse: collapse;
     border: 2px solid black;
@@ -38,4 +49,24 @@ th, td, caption {
 
 caption {
     border-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #5b5f08;
+    text-align: center;
+    font-size: 23px
+}
+
+footer p {
+    color: aliceblue;
 }
