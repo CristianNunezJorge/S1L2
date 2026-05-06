@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+html {
+    font-family:Inconsolata, sans-serif;
+}
 .main-header {
     text-align: center;
     color: rgb(211, 89, 3, 0.712);
@@ -18,8 +23,19 @@ a{
     color: rgba(211, 89, 3, 0.712);
 }
 
-.container h2 {
-    text-decoration-color: #857F26;
+h2{
+    color: #5b5f08;
+}
 
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
 
+th, td, caption {
+    border: 2px solid black;
+}
+
+caption {
+    border-bottom: 0px;
 }
