@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Form</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">TABELLE</a></li>
+                <li><a href="form.html">FORM</a></li>
+                <li><a href="multimedia.html">MULTIMEDIA</a></li>
+                <li><a href="layout.html">Layout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <h4>*=  Campi obbligatori</h4>
+
+    <form action="grazie.html" method="get">
+
+        <!--Campi di IMPUT-->
+
+        <label for="name">NOME COMPLETO*</label>
+        <input type="text" id="name" name="name" placeholder="Inserisci il tuo nome" required>
+        <label for="address">INDIRIZZO*</label>
+        <input type="address" name="address" id="address" placeholder="Inserisci il tuo Indirizzo" required>
+        <label for="passwuord">PASSWORD*</label>
+        <input type="password" id="passwuord" name="passwuord" placeholder="Inserisci la tua passwuord" required>
+        <br><br>
+        <label for="username">USERNAME*</label>
+        <input type="text" id="username" name="username" placeholder="Inserisci il tuo username" required>
+        <label for="email">EMAIL*</label>
+        <input type="email" id="email" name="email" placeholder="Inserisci la tua email" required>
+        <br><br>
+        <label for="courses">NUMERO CORSI*</label>
+        <input type="number" id="courses" name="courses" min="1" max="5" placeholder="Numero corsi" required>
+        <label for="joindate">DATA ISCRIZIONE*</label>
+        <input type="date" id="joindate" name="joindate" required>
+
+        <!--SELECT-->
+
+        <label for="fraquency"><h4>Scegli la frequenza</h4></label>
+        <select name="fraquency" id="fraquency">
+            <option value="" selected></option>
+            <option value="FT">FULL-TIME</option>
+            <option value="PT">PART-TIME</option>
+            <option value="SR">SERALE</option>
+        </select>
+        <br><br>
+
+        <!--TEXTAREA-->
+
+        <label for="message">Inviaci un messaggio</label><br>
+        <textarea name="message" id="message" rows="3" cols="50" placeholder="Inserisci il tuo messaggio"></textarea>
+
+        <!--CHECKBOX E RADIO BUTTON-->
+
+        <h4>Scegli i linguaggi preferiti</h4>
+        <input type="checkbox" id="html" name="html" value="html">
+        <label for="html">HTML</label><br>
+        <input type="checkbox" id="css" name="css" value="css">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id="java" name="java" value="java">
+        <label for="java">Java</label><br>
+        <input type="checkbox" id="Javascript" name="Javascript" value="Javascript">
+        <label for="Javascript">Javascript</label>
+
+        <br><br>
+
+        <h4>Seleziona un tipo di corso</h4>
+        <input type="radio" id="fullstack" name="courses" value="fullstack">
+        <label for="fullstack">FULLSTACK</label>
+        <input type="radio" id="frontend" name="courses" value="frontend">
+        <label for="frontend">FRONT-END</label>
+        <input type="radio" id="backend" name="courses" value="backend">
+        <label for="backend">BACK-END</label>
+
+        <p>&nbsp;</p>
+
+        <!--BUTTON-->
+
+        <button type="submit" id="sendform">INVIA</button>
+        <button type="reset" id="clearform">CANCELLA</button>
+    </form>
+    
+</body>
+</html>
