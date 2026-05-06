@@ -2,6 +2,7 @@
 
 html {
     font-family: "Inconsolata", sans-serif;
+    
 }
 
 .main-header {
@@ -60,9 +61,17 @@ border-collapse: collapse;
 border: 2px solid black;
 }
 
+/*DIV COMPETENZE*/
 
+#Competenze
+ul {
+    background-color: rgb(255, 236, 213);
+}
 
-
+#Competenze
+strong {
+    text-decoration: underline;
+}
 
 
 
